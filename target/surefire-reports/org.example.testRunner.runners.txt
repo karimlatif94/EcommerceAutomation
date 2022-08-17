@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: org.example.testRunner.runners
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 210.848 s - in org.example.testRunner.runners
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 289.873 s <<< FAILURE! - in org.example.testRunner.runners
+org.example.testRunner.runners.runScenario["user could access Lumia product through first slider", "F13_HomeSliders - user could access products through sliders"](14)  Time elapsed: 9.726 s  <<< FAILURE!
+java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkLumiaPageAccessible(D13_HomeSlidersStepDef.java:21)
+	at ✽.user opens Lumia product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:8)
+
+org.example.testRunner.runners.runScenario["user could access iPhone product through second slider", "F13_HomeSliders - user could access products through sliders"](15)  Time elapsed: 12.974 s  <<< FAILURE!
+java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkiPhonePageAccessible(D13_HomeSlidersStepDef.java:33)
+	at ✽.user opens iPhone product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:12)
+

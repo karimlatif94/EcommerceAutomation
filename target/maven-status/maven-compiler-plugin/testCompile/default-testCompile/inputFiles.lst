@@ -2,6 +2,7 @@ D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P09_ShoppingCart.
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D10_WishlistStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D11_CompareListStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P11_CompareList.java
+D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D13_HomeSlidersStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P08_SelectTags.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D02_LoginStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P12_SuccessfulOrder.java
@@ -10,6 +11,8 @@ D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D08_SelectTags
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D12_SuccessfulOrderStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D04_SearchStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P06_Categories.java
+D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P13_HomeSliders.java
+D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D14_FollowUsStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P07_ColorFilter.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D01_registerStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P01_registration.java
@@ -20,6 +23,7 @@ D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D05_SwitchCurr
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D03_ResetPasswordStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P05_SwitchCurr.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D07_ColorFilterStepDef.java
+D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P14_FollowUs.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\Hooks.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\stepDefs\D09_ShoppingCartStepDef.java
 D:\workset\EcommerceAutomation\src\test\java\org\example\pages\P02_Login.java

@@ -4,34 +4,39 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.example.pages.P05_SwitchCurr;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 public class D05_SwitchCurrStepDef {
     P05_SwitchCurr switchcurr = new P05_SwitchCurr();
 
 
-    @And("user selects Euro from menu")
-    public void choose_Euro() {
+    @And("user switches currency to Euro")
+    public void CurrToEuro() {
 
-        switchcurr.selectEuro();
-
-    }
-    @Then("user selects Euro successfully")
-    public void success_Euro() {
-        String ExpectedResult = "Euro";
-        String ActualResult = Hooks.driver.findElement(By.cssSelector("select[onchange=\"setLocation(this.value)\"]")).getText();
-        Assert.assertTrue(ActualResult.contains(ExpectedResult));
-    }
-
-    @And ("user selects US Dollar from menu")
-    public void selectUS(){
-        switchcurr.selectUSDollar();
+        switchcurr.CurrTo("Euro");
 
     }
-    @Then("user selects US Dollar successfully")
-    public void success_US() {
-        String ExpectedResult = "US Dollar";
-        String ActualResult = Hooks.driver.findElement(By.cssSelector("select[onchange=\"setLocation(this.value)\"]")).getText();
-        Assert.assertTrue(ActualResult.contains(ExpectedResult));
+
+    @Then("Products currency is switched to Euro successfully")
+    public void checkCurrencyisEuro() {
+
+        for (WebElement currentPrice : switchcurr.productsList()) {
+            Assert.assertTrue(currentPrice.getText().contains("€"));
+        }
+    }
+
+    @And("user switches currency to Dollar")
+    public void CurrToDollar() {
+
+        switchcurr.CurrTo("US Dollar");
+
+    }
+
+    @Then("Products currency is switched to Dollar successfully")
+    public void checkCurrencyisDollar() {
+        for (WebElement currentPrice : switchcurr.productsList()) {
+            Assert.assertTrue(currentPrice.getText().contains("$"));
+        }
     }
 }

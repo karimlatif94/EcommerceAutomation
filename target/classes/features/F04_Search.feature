@@ -14,6 +14,7 @@ Feature: F04_Search - user could search for product
   Scenario: user could search for any product
 
     When user opens homepage
-    And user searches with product name
-
+    And user searches by product name for NIKE SHOES
     Then user finds product results successfully
+    When user searches by SKU for NIKE SHOES
+    Then user finds product result by SKU successfully

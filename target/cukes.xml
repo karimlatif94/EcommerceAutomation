@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="208.907">
-<testcase classname="F01_Register - users could register with new account" name="user could register with valid data successfully" time="15.122">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="287.458">
+<testcase classname="F01_Register - users could register with new account" name="user could register with valid data successfully" time="12.53">
 <system-out><![CDATA[When user opens homepage....................................................passed
 And user clicks on register to open register page...........................passed
+And user enters gender......................................................passed
 And user enters first name and last name....................................passed
+And user enters DOB.........................................................passed
 And user enters valid Email address.........................................passed
+And user enters company.....................................................passed
 And user enters valid password and confirm it...............................passed
 And user clicks on register button..........................................passed
 Then success message is displayed...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F02_Login - user could login with valid email and password" name="user could log in with valid email and password" time="14.241">
+<testcase classname="F02_Login - user could login with valid email and password" name="user could log in with valid email and password" time="11.095">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -19,7 +22,7 @@ And user clicks on login button.............................................pass
 Then user login is done successfully........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F03_ResetPassword - user could reset password successfully" name="user could reset password successfully" time="15.062">
+<testcase classname="F03_ResetPassword - user could reset password successfully" name="user could reset password successfully" time="14.75">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -33,7 +36,7 @@ And user clicks on Recover button...........................................pass
 Then Reset message is displayed.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F04_Search - user could search for product" name="user could search for any product" time="12.881">
+<testcase classname="F04_Search - user could search for product" name="user could search for any product" time="16.093">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -41,11 +44,13 @@ And user enters correct password............................................pass
 And user clicks on login button.............................................passed
 Then user login is done successfully........................................passed
 When user opens homepage....................................................passed
-And user searches with product name.........................................passed
+And user searches by product name for NIKE SHOES............................passed
 Then user finds product results successfully................................passed
+When user searches by SKU for NIKE SHOES....................................passed
+Then user finds product result by SKU successfully..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F05_SwitchCurr - user could switch between currencies US-Euro" name="logged user could switch between currencies US-Euro" time="13.438">
+<testcase classname="F05_SwitchCurr - user could switch between currencies US-Euro" name="user could switch between currencies to Euro" time="13.331">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -53,13 +58,23 @@ And user enters correct password............................................pass
 And user clicks on login button.............................................passed
 Then user login is done successfully........................................passed
 Given user opens homepage...................................................passed
-And user selects Euro from menu.............................................passed
-Then user selects Euro successfully.........................................passed
-And user selects US Dollar from menu........................................passed
-Then user selects US Dollar successfully....................................passed
+When user switches currency to Euro.........................................passed
+Then Products currency is switched to Euro successfully.....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F06_Categories - user could select different categories" name="user could select different categories" time="23.672">
+<testcase classname="F05_SwitchCurr - user could switch between currencies US-Euro" name="user could switch between currencies to US Dollar" time="12.822">
+<system-out><![CDATA[Given user navigates to login page..........................................passed
+And user clicks login link..................................................passed
+And user enters correct email...............................................passed
+And user enters correct password............................................passed
+And user clicks on login button.............................................passed
+Then user login is done successfully........................................passed
+Given user opens homepage...................................................passed
+When user switches currency to Dollar.......................................passed
+Then Products currency is switched to Dollar successfully...................passed
+]]></system-out>
+</testcase>
+<testcase classname="F06_Categories - user could select different categories" name="user could select different categories" time="25.953">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -72,7 +87,7 @@ And user selects Electronics category then hover to Others subcategory......pass
 And user selects Books category.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F07_ColorFilter - user could filter with color" name="user could filter with color" time="13.234">
+<testcase classname="F07_ColorFilter - user could filter with color" name="user could filter with color" time="13.929">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -85,7 +100,7 @@ And user selects Shoes subcategory..........................................pass
 Then user filter by Red color...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F08_Select Tags | user selects different tags" name="_2" time="14.016">
+<testcase classname="F08_Select Tags | user selects different tags" name="_2" time="15.784">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -97,7 +112,7 @@ And user clicks camera tag..................................................pass
 And user clicks cell tag....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F09_ShoppingCart - user could add different products to shopping cart" name="user could add different products to shopping cart" time="16.672">
+<testcase classname="F09_ShoppingCart - user could add different products to shopping cart" name="user could add different products to shopping cart" time="18.726">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -113,7 +128,7 @@ And user clicks on add to cart button for speakers..........................pass
 Then product is added successfully..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F10_Wishlist - user could add different products to Wishlist" name="user could add different products to Wishlist" time="21.097">
+<testcase classname="F10_Wishlist - user could add different products to Wishlist" name="user could add different products to Wishlist" time="21.822">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -130,7 +145,7 @@ And user clicks on add to wishlist for book.................................pass
 Then product is added successfully to Wishlist..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F11_CompareList - user could add different products to CompareList" name="user could add different products to Comparelist" time="25.122">
+<testcase classname="F11_CompareList - user could add different products to CompareList" name="user could add different products to Comparelist" time="24.507">
 <system-out><![CDATA[Given user navigates to login page..........................................passed
 And user clicks login link..................................................passed
 And user enters correct email...............................................passed
@@ -148,7 +163,7 @@ And user clicks on add to CompareList.......................................pass
 Then product is added successfully to Comparelist...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F12_SuccessfulOrder - user could create successful order" name="user could create successful order" time="23.725">
+<testcase classname="F12_SuccessfulOrder - user could create successful order" name="user could create successful order" time="23.768">
 <system-out><![CDATA[Given user opens homepage...................................................passed
 When user selects HTC mobile................................................passed
 And user clicks on add to cart button for mobile............................passed
@@ -173,5 +188,73 @@ And user clicks continue button.............................................pass
 And user clicks confirm button..............................................passed
 Then order is processed successfully........................................passed
 ]]></system-out>
+</testcase>
+<testcase classname="F13_HomeSliders - user could access products through sliders" name="user could access Lumia product through first slider" time="9.726">
+<failure message="Error:URL Mismatch expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user opens homepage....................................................passed
+And user clicks on Lumia slider.............................................passed
+Then user opens Lumia product successfully..................................failed
+
+StackTrace:
+java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkLumiaPageAccessible(D13_HomeSlidersStepDef.java:21)
+	at ✽.user opens Lumia product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="F13_HomeSliders - user could access products through sliders" name="user could access iPhone product through second slider" time="12.958">
+<failure message="Error:URL Mismatch expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user opens homepage....................................................passed
+And user clicks on iPhone slider............................................passed
+Then user opens iPhone product successfully.................................failed
+
+StackTrace:
+java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkiPhonePageAccessible(D13_HomeSlidersStepDef.java:33)
+	at ✽.user opens iPhone product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:12)
+]]></failure>
+</testcase>
+<testcase classname="F14_FollowUs - user could access followUs links" name="user could access youtube followUs link" time="10.269">
+<system-out><![CDATA[When user opens homepage....................................................passed
+And user clicks youtube icon................................................passed
+Then youtube is accessed successfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F14_FollowUs - user could access followUs links" name="user could access facebook followUs link" time="8.209">
+<system-out><![CDATA[When user opens homepage....................................................passed
+And user clicks facebook icon...............................................passed
+Then facebook is accessed successfully......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F14_FollowUs - user could access followUs links" name="user could access twitter followUs link" time="10.629">
+<system-out><![CDATA[When user opens homepage....................................................passed
+And user clicks twitter icon................................................passed
+Then twitter is accessed successfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F14_FollowUs - user could access followUs links" name="user could access RSS followUs link" time="9.731">
+<failure message="Expected condition failed: waiting for number of open windows to be 2 (tried for 3 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'DESKTOP-5A457IG', ip: '192.168.153.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61115/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ab606affe6d977f8263fb0aba9c63cf6" type="org.openqa.selenium.TimeoutException"><![CDATA[When user opens homepage....................................................passed
+And user clicks RSS icon....................................................passed
+Then RSS is accessed successfully...........................................failed
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-5A457IG', ip: '192.168.153.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61115/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab606affe6d977f8263fb0aba9c63cf6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.stepDefs.D14_FollowUsStepDef.checkRSSAccessed(D14_FollowUsStepDef.java:87)
+	at ✽.RSS is accessed successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F14_FollowUs.feature:22)
+]]></failure>
 </testcase>
 </testsuite>

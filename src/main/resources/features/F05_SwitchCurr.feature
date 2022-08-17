@@ -11,10 +11,13 @@ Feature: F05_SwitchCurr - user could switch between currencies US-Euro
 
     Then user login is done successfully
 
-  Scenario:logged user could switch between currencies US-Euro
+  Scenario: user could switch between currencies to Euro
     Given user opens homepage
 
-    And user selects Euro from menu
-    Then user selects Euro successfully
-    And user selects US Dollar from menu
-    Then user selects US Dollar successfully
+    When user switches currency to Euro
+    Then Products currency is switched to Euro successfully
+
+  Scenario: user could switch between currencies to US Dollar
+    Given user opens homepage
+    When user switches currency to Dollar
+    Then Products currency is switched to Dollar successfully

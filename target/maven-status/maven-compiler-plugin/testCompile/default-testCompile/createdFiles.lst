@@ -3,6 +3,7 @@ org\example\pages\P10_Wishlist.class
 org\example\stepDefs\D09_ShoppingCartStepDef.class
 org\example\pages\P05_SwitchCurr.class
 org\example\stepDefs\Hooks.class
+org\example\pages\P14_FollowUs.class
 org\example\stepDefs\D06_CategoriesStepDef.class
 org\example\pages\P07_ColorFilter.class
 org\example\stepDefs\D01_registerStepDef.class
@@ -11,7 +12,9 @@ org\example\pages\P01_registration.class
 org\example\stepDefs\D02_LoginStepDef.class
 org\example\stepDefs\D04_SearchStepDef.class
 org\example\pages\P12_SuccessfulOrder.class
+org\example\pages\P13_HomeSliders.class
 org\example\stepDefs\D10_WishlistStepDef.class
+org\example\stepDefs\D14_FollowUsStepDef.class
 org\example\pages\P04_Search.class
 org\example\pages\P06_Categories.class
 org\example\stepDefs\D03_ResetPasswordStepDef.class
@@ -24,3 +27,4 @@ org\example\stepDefs\D07_ColorFilterStepDef.class
 org\example\testRunner\runners.class
 org\example\pages\P09_ShoppingCart.class
 org\example\pages\P02_Login.class
+org\example\stepDefs\D13_HomeSlidersStepDef.class

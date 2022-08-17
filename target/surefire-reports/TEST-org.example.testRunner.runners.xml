@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.testRunner.runners" time="210.848" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.testRunner.runners" time="289.873" tests="18" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_11\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\TOSHIBA\AppData\Local\Temp\surefire7629561451255450877\surefirebooter4004133190996841942.jar C:\Users\TOSHIBA\AppData\Local\Temp\surefire7629561451255450877 2022-08-13T14-52-42_355-jvmRun1 surefire5300577413105656827tmp surefire_06900379915106355892tmp"/>
+    <property name="sun.java.command" value="C:\Users\TOSHIBA\AppData\Local\Temp\surefire3854298302761178313\surefirebooter8203976647913289786.jar C:\Users\TOSHIBA\AppData\Local\Temp\surefire3854298302761178313 2022-08-17T03-29-00_364-jvmRun1 surefire680785299093917873tmp surefire_06857456956555405721tmp"/>
     <property name="surefire.test.class.path" value="D:\workset\EcommerceAutomation\target\test-classes;D:\workset\EcommerceAutomation\target\classes;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\TOSHIBA\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\TOSHIBA\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\TOSHIBA\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\TOSHIBA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\TOSHIBA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\TOSHIBA\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\TOSHIBA\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\TOSHIBA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\TOSHIBA\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\TOSHIBA\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\TOSHIBA\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\TOSHIBA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\TOSHIBA\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\TOSHIBA\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\TOSHIBA\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\TOSHIBA\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\TOSHIBA\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\TOSHIBA\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\TOSHIBA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\TOSHIBA\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\TOSHIBA\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\TOSHIBA\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\TOSHIBA\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\TOSHIBA\.m2\repository\io\github\bonigarcia\webdrivermanager\5.2.3\webdrivermanager-5.2.3.jar;C:\Users\TOSHIBA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\TOSHIBA\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\TOSHIBA\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\TOSHIBA\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\TOSHIBA\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\TOSHIBA\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\TOSHIBA\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\TOSHIBA\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\TOSHIBA\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\TOSHIBA\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\TOSHIBA\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\TOSHIBA\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\TOSHIBA\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\TOSHIBA\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\TOSHIBA\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\TOSHIBA\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\TOSHIBA\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\TOSHIBA\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\TOSHIBA\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\TOSHIBA\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\TOSHIBA\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\TOSHIBA\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\TOSHIBA"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\TOSHIBA\AppData\Local\Temp\surefire7629561451255450877\surefirebooter4004133190996841942.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\TOSHIBA\AppData\Local\Temp\surefire3854298302761178313\surefirebooter8203976647913289786.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_11\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_11\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_11\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_11\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_11\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_11\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_11\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_11\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,84 +62,85 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="runScenario[&quot;user could register with valid data successfully&quot;, &quot;F01_Register - users could register with new account&quot;](1)" classname="org.example.testRunner.runners" time="15.247">
+  <testcase name="runScenario[&quot;user could register with valid data successfully&quot;, &quot;F01_Register - users could register with new account&quot;](1)" classname="org.example.testRunner.runners" time="12.701">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 49565
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 57040
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 13, 2022 2:52:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2022 3:29:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:52:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:29:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:52:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:29:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user could log in with valid email and password&quot;, &quot;F02_Login - user could login with valid email and password&quot;](2)" classname="org.example.testRunner.runners" time="14.257">
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 57720
+  <testcase name="runScenario[&quot;user could log in with valid email and password&quot;, &quot;F02_Login - user could login with valid email and password&quot;](2)" classname="org.example.testRunner.runners" time="11.126">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 49406
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 13, 2022 2:53:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2022 3:29:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:53:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:29:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:53:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:29:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user could reset password successfully&quot;, &quot;F03_ResetPassword - user could reset password successfully&quot;](3)" classname="org.example.testRunner.runners" time="15.078">
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 63373
+  <testcase name="runScenario[&quot;user could reset password successfully&quot;, &quot;F03_ResetPassword - user could reset password successfully&quot;](3)" classname="org.example.testRunner.runners" time="14.766">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 64418
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 13, 2022 2:53:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2022 3:29:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:53:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:29:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:53:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:29:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user could search for any product&quot;, &quot;F04_Search - user could search for product&quot;](4)" classname="org.example.testRunner.runners" time="12.928">
-    <system-out><![CDATA[3
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 63443
+  <testcase name="runScenario[&quot;user could search for any product&quot;, &quot;F04_Search - user could search for product&quot;](4)" classname="org.example.testRunner.runners" time="16.14">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 56699
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 13, 2022 2:53:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2022 3:29:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:53:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:29:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:53:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:29:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;logged user could switch between currencies US-Euro&quot;, &quot;F05_SwitchCurr - user could switch between currencies US-Euro&quot;](5)" classname="org.example.testRunner.runners" time="13.469">
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 61232
+  <testcase name="runScenario[&quot;user could switch between currencies to Euro&quot;, &quot;F05_SwitchCurr - user could switch between currencies US-Euro&quot;](5)" classname="org.example.testRunner.runners" time="13.378">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 57320
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 13, 2022 2:53:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2022 3:30:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:53:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:30:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:53:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:30:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user could select different categories&quot;, &quot;F06_Categories - user could select different categories&quot;](6)" classname="org.example.testRunner.runners" time="23.703">
+  <testcase name="runScenario[&quot;user could switch between currencies to US Dollar&quot;, &quot;F05_SwitchCurr - user could switch between currencies US-Euro&quot;](6)" classname="org.example.testRunner.runners" time="12.853">
     <system-out><![CDATA[
 @smoke
 Scenario: user could register with valid data successfully &amp#27;[90m# src/main/resources/features/F01_Register.feature:4&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                                 &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on register to open register page&amp#27;[0m        &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.openRegisterlink()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters gender&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.setMaleGender()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters first name and last name&amp#27;[0m                 &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.setFirstName_lastName()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters DOB&amp#27;[0m                                      &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.setDOB()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters valid Email address&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.setEmailAddress()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters company&amp#27;[0m                                  &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.setCompanyName()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters valid password and confirm it&amp#27;[0m            &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.setPassword()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on register button&amp#27;[0m                       &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.registerButton()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32msuccess message is displayed&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.checkSuccessMessage()&amp#27;[0m
@@ -168,30 +169,108 @@ Scenario: user could reset password successfully &amp#27;[90m# src/main/resource
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mReset message is displayed&amp#27;[0m                &amp#27;[90m# org.example.stepDefs.D03_ResetPasswordStepDef.checkResetMessage()&amp#27;[0m
 
 @smoke
-Scenario: user could search for any product    &amp#27;[90m# src/main/resources/features/F04_Search.feature:14&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m           &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.navigateToLoginPage()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login link&amp#27;[0m                   &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginlink()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct email&amp#27;[0m                &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Email()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m             &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Password()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on login button&amp#27;[0m              &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginButton()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m         &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                     &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser searches with product name&amp#27;[0m          &amp#27;[90m# org.example.stepDefs.D04_SearchStepDef.search()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser finds product results successfully&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D04_SearchStepDef.checkProductResult()&amp#27;[0m
+Scenario: user could search for any product          &amp#27;[90m# src/main/resources/features/F04_Search.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                 &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.navigateToLoginPage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login link&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginlink()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct email&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Email()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m                   &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on login button&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m               &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                           &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser searches by product name for NIKE SHOES&amp#27;[0m   &amp#27;[90m# org.example.stepDefs.D04_SearchStepDef.searchByName()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser finds product results successfully&amp#27;[0m       &amp#27;[90m# org.example.stepDefs.D04_SearchStepDef.checkProductResult()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser searches by SKU for NIKE SHOES&amp#27;[0m           &amp#27;[90m# org.example.stepDefs.D04_SearchStepDef.searchBySKU()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser finds product result by SKU successfully&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D04_SearchStepDef.checkProductHasSameSKU()&amp#27;[0m
 
 @smoke
-Scenario: logged user could switch between currencies US-Euro &amp#27;[90m# src/main/resources/features/F05_SwitchCurr.feature:14&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                          &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.navigateToLoginPage()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login link&amp#27;[0m                                  &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginlink()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct email&amp#27;[0m                               &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Email()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Password()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on login button&amp#27;[0m                             &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginButton()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects Euro from menu&amp#27;[0m                             &amp#27;[90m# org.example.stepDefs.D05_SwitchCurrStepDef.choose_Euro()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser selects Euro successfully&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D05_SwitchCurrStepDef.success_Euro()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects US Dollar from menu&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D05_SwitchCurrStepDef.selectUS()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser selects US Dollar successfully&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D05_SwitchCurrStepDef.success_US()&amp#27;[0m
+Scenario: user could switch between currencies to Euro    &amp#27;[90m# src/main/resources/features/F05_SwitchCurr.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.navigateToLoginPage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login link&amp#27;[0m                              &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginlink()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct email&amp#27;[0m                           &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Email()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on login button&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                               &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser switches currency to Euro&amp#27;[0m                     &amp#27;[90m# org.example.stepDefs.D05_SwitchCurrStepDef.CurrToEuro()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mProducts currency is switched to Euro successfully&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D05_SwitchCurrStepDef.checkCurrencyisEuro()&amp#27;[0m
+
+@smoke
+Scenario: user could switch between currencies to US Dollar &amp#27;[90m# src/main/resources/features/F05_SwitchCurr.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.navigateToLoginPage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login link&amp#27;[0m                                &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginlink()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct email&amp#27;[0m                             &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Email()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m                          &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on login button&amp#27;[0m                           &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 62428
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:30:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:30:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:30:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could select different categories&quot;, &quot;F06_Categories - user could select different categories&quot;](7)" classname="org.example.testRunner.runners" time="25.984">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 58755
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:30:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:30:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:30:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could filter with color&quot;, &quot;F07_ColorFilter - user could filter with color&quot;](8)" classname="org.example.testRunner.runners" time="13.976">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 55777
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:30:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:30:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:30:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;F08_Select Tags | user selects different tags&quot;](9)" classname="org.example.testRunner.runners" time="15.799">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 49362
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:31:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:31:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:31:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could add different products to shopping cart&quot;, &quot;F09_ShoppingCart - user could add different products to shopping cart&quot;](10)" classname="org.example.testRunner.runners" time="18.773">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 55706
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:31:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:31:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:31:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could add different products to Wishlist&quot;, &quot;F10_Wishlist - user could add different products to Wishlist&quot;](11)" classname="org.example.testRunner.runners" time="21.837">
+    <system-out><![CDATA[
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                                 &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser switches currency to Dollar&amp#27;[0m                     &amp#27;[90m# org.example.stepDefs.D05_SwitchCurrStepDef.CurrToDollar()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mProducts currency is switched to Dollar successfully&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D05_SwitchCurrStepDef.checkCurrencyisDollar()&amp#27;[0m
 
 @smoke
 Scenario: user could select different categories                         &amp#27;[90m# src/main/resources/features/F06_Categories.feature:14&amp#27;[0m
@@ -203,73 +282,7 @@ Scenario: user could select different categories                         &amp#27
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m                                   &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                                              &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser selects Digital Downloads category&amp#27;[0m                           &amp#27;[90m# org.example.stepDefs.D06_CategoriesStepDef.selectDigitalDownloadsCategory()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 57877
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 13, 2022 2:53:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:53:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:53:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 103
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;user could filter with color&quot;, &quot;F07_ColorFilter - user could filter with color&quot;](7)" classname="org.example.testRunner.runners" time="13.265">
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 62036
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 13, 2022 2:54:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:54:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:54:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 103
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;&quot;, &quot;F08_Select Tags | user selects different tags&quot;](8)" classname="org.example.testRunner.runners" time="14.032">
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 59282
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 13, 2022 2:54:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:54:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:54:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 103
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;user could add different products to shopping cart&quot;, &quot;F09_ShoppingCart - user could add different products to shopping cart&quot;](9)" classname="org.example.testRunner.runners" time="16.703">
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 56725
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 13, 2022 2:54:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:54:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:54:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 103
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;user could add different products to Wishlist&quot;, &quot;F10_Wishlist - user could add different products to Wishlist&quot;](10)" classname="org.example.testRunner.runners" time="21.112">
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 55752
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 13, 2022 2:55:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:55:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:55:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 103
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;user could add different products to Comparelist&quot;, &quot;F11_CompareList - user could add different products to CompareList&quot;](11)" classname="org.example.testRunner.runners" time="25.169">
-    <system-out><![CDATA[[32muser selects Electronics category then hover to Others subcategory&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D06_CategoriesStepDef.selectElectronicsOthersSubCategory()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects Electronics category then hover to Others subcategory&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D06_CategoriesStepDef.selectElectronicsOthersSubCategory()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects Books category&amp#27;[0m                                        &amp#27;[90m# org.example.stepDefs.D06_CategoriesStepDef.selectBooksCategory()&amp#27;[0m
 
 @smoke
@@ -320,7 +333,56 @@ Scenario: user could add different products to Wishlist &amp#27;[90m# src/main/r
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct email&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Email()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Password()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on login button&amp#27;[0m                       &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginButton()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m                  &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 64338
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:31:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:31:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:31:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could add different products to Comparelist&quot;, &quot;F11_CompareList - user could add different products to CompareList&quot;](12)" classname="org.example.testRunner.runners" time="24.522">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 63958
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:32:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:32:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:32:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could create successful order&quot;, &quot;F12_SuccessfulOrder - user could create successful order&quot;](13)" classname="org.example.testRunner.runners" time="23.799">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 57374
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:32:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:32:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:32:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could access Lumia product through first slider&quot;, &quot;F13_HomeSliders - user could access products through sliders&quot;](14)" classname="org.example.testRunner.runners" time="9.726">
+    <failure message="Error:URL Mismatch expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkLumiaPageAccessible(D13_HomeSlidersStepDef.java:21)
+	at ✽.user opens Lumia product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:8)
+]]></failure>
+    <system-out><![CDATA[.checkSuccessMessage()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                             &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser selects MacBook&amp#27;[0m                             &amp#27;[90m# org.example.stepDefs.D10_WishlistStepDef.selectMacBook()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on add to wishlist for MacBook&amp#27;[0m        &amp#27;[90m# org.example.stepDefs.D10_WishlistStepDef.AddToWishlist1()&amp#27;[0m
@@ -335,29 +397,125 @@ Scenario: user could add different products to Comparelist &amp#27;[90m# src/mai
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                       &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.navigateToLoginPage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login link&amp#27;[0m                               &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginlink()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct email&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Email()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D02_LoginStepDe]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 64520
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m                         &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on login button&amp#27;[0m                          &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m                     &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                                &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects Books category&amp#27;[0m                          &amp#27;[90m# org.example.stepDefs.D06_CategoriesStepDef.selectBooksCategory()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser selects pride Book&amp#27;[0m                             &amp#27;[90m# org.example.stepDefs.D11_CompareListStepDef.selectPrideBook()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on add to CompareList&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D11_CompareListStepDef.AddToComparelist()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproduct is added successfully to Comparelist&amp#27;[0m        &amp#27;[90m# org.example.stepDefs.D11_CompareListStepDef.checkProductAddedCompareSuccessMsg()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects Books category&amp#27;[0m                          &amp#27;[90m# org.example.stepDefs.D06_CategoriesStepDef.selectBooksCategory()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser selects pies book&amp#27;[0m                              &amp#27;[90m# org.example.stepDefs.D10_WishlistStepDef.selectPiesBook()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on add to CompareList&amp#27;[0m                    &amp#27;[90m# org.example.stepDefs.D11_CompareListStepDef.AddToComparelist()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproduct is added successfully to Comparelist&amp#27;[0m        &amp#27;[90m# org.example.stepDefs.D11_CompareListStepDef.checkProductAddedCompareSuccessMsg()&amp#27;[0m
+
+@smoke
+Scenario: user could create successful order                &amp#27;[90m# src/main/resources/features/F12_SuccessfulOrder.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                                 &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser selects HTC mobile&amp#27;[0m                              &amp#27;[90m# org.example.stepDefs.D09_ShoppingCartStepDef.selectHTCMobile()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on add to cart button for mobile&amp#27;[0m          &amp#27;[90m# org.example.stepDefs.D09_ShoppingCartStepDef.AddToCartButton1()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproduct is added successfully&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D09_ShoppingCartStepDef.checkProductAddedSuccessMsg()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser selects Portable Sound Speakers&amp#27;[0m                 &amp#27;[90m# org.example.stepDefs.D09_ShoppingCartStepDef.selectSpeakers()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on add to cart button for speakers&amp#27;[0m        &amp#27;[90m# org.example.stepDefs.D09_ShoppingCartStepDef.AddToCartButton2()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproduct is added successfully&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D09_ShoppingCartStepDef.checkProductAddedSuccessMsg()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser clicks on shopping cart link&amp#27;[0m                   &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.shoppingCart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser accepts the agreement&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.agreeOnTerms()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on checkout button&amp#27;[0m                       &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.checkoutButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct email&amp#27;[0m                             &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Email()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters correct password&amp#27;[0m                          &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.Password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on login button&amp#27;[0m                           &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.loginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser login is done successfully&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D02_LoginStepDef.checkSuccessMessage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser accepts the agreement&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.agreeOnTerms()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on checkout button&amp#27;[0m                       &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.checkoutButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fills all fields&amp#27;[0m                                 &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.fillAllFields()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on continue button&amp#27;[0m                        &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.fieldsContinueButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser select delivery method and click continue button&amp#27;[0m &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.shippingContinueButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser select payment method and click continue button&amp#27;[0m  &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.paymentMethodContinueButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks continue button&amp#27;[0m                           &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.paymentInfoContinueButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks confirm button&amp#27;[0m                            &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.confirmButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32morder is processed successfully&amp#27;[0m                      &amp#27;[90m# org.example.stepDefs.D12_SuccessfulOrderStepDef.orderProcessedSuccessfully()&amp#27;[0m
+
+@smoke
+Scenario: user could access Lumia product through first slider &amp#27;[90m# src/main/resources/features/F13_HomeSliders.feature:4&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens homepage&amp#27;[0m                                     &amp#27;[90m# org.example.stepDefs.D01_registerStepDef.navigateToHomePage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Lumia slider&amp#27;[0m                              &amp#27;[90m# org.example.stepDefs.D13_HomeSlidersStepDef.clickLumiaSlider()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser opens Lumia product successfully&amp#27;[0m                   &amp#27;[90m# org.example.stepDefs.D13_HomeSlidersStepDef.checkLumiaPageAccessible()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 64776
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 13, 2022 2:55:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2022 3:32:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:55:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:32:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:55:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:32:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 103
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;user could create successful order&quot;, &quot;F12_SuccessfulOrder - user could create successful order&quot;](12)" classname="org.example.testRunner.runners" time="23.772">
-    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 64025
+  <testcase name="runScenario[&quot;user could access iPhone product through second slider&quot;, &quot;F13_HomeSliders - user could access products through sliders&quot;](15)" classname="org.example.testRunner.runners" time="12.974">
+    <failure message="Error:URL Mismatch expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkiPhonePageAccessible(D13_HomeSlidersStepDef.java:33)
+	at ✽.user opens iPhone product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:12)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 57235
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 13, 2022 2:55:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 17, 2022 3:33:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 13, 2022 2:55:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:33:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
-Aug 13, 2022 2:55:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 17, 2022 3:33:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could access youtube followUs link&quot;, &quot;F14_FollowUs - user could access followUs links&quot;](16)" classname="org.example.testRunner.runners" time="10.269">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 52133
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:33:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:33:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:33:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could access facebook followUs link&quot;, &quot;F14_FollowUs - user could access followUs links&quot;](17)" classname="org.example.testRunner.runners" time="8.225">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 50346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:33:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:33:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:33:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 103
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;user could access twitter followUs link&quot;, &quot;F14_FollowUs - user could access followUs links&quot;](18)" classname="org.example.testRunner.runners" time="10.644">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 65099
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 3:33:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 17, 2022 3:33:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 103
+Aug 17, 2022 3:33:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 103
 ]]></system-err>
   </testcase>

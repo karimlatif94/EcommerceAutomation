@@ -5,8 +5,11 @@ Feature: F01_Register - users could register with new account
 
     When user opens homepage
     And user clicks on register to open register page
+    And user enters gender
     And user enters first name and last name
+    And user enters DOB
     And user enters valid Email address
+    And user enters company
     And user enters valid password and confirm it
     And user clicks on register button
 

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 13 14:52:44 EEST 2022</td>
+<td>Started on:</td><td>Wed Aug 17 03:29:03 EEST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>209 seconds (209926 ms)</td>
+<tr><td>Total time:</td><td>288 seconds (288649 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,74 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could access Lumia product through first slider", "F13_HomeSliders - user could access products through sliders"</td>
+<td><div><pre>java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkLumiaPageAccessible(D13_HomeSlidersStepDef.java:21)
+	at ?.user opens Lumia product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:8)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1223116644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1223116644'><pre>java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkLumiaPageAccessible(D13_HomeSlidersStepDef.java:21)
+	at ?.user opens Lumia product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:8)
+</pre></div></td>
+<td>9</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could access RSS followUs link", "F14_FollowUs - user could access followUs links"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-5A457IG&apos;, ip: &apos;192.168.153.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61115/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab606affe6d977f8263fb0aba9c63cf6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.stepDefs.D14_FollowUsStepDef.checkRSSAccessed(D14_FollowUsStepDef.java:87)
+	at ?.RSS is accessed successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F14_FollowUs.feature:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1124055734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1124055734'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-5A457IG&apos;, ip: &apos;192.168.153.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\TOSHIBA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61115/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab606affe6d977f8263fb0aba9c63cf6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.stepDefs.D14_FollowUsStepDef.checkRSSAccessed(D14_FollowUsStepDef.java:87)
+	at ?.RSS is accessed successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F14_FollowUs.feature:22)
+</pre></div></td>
+<td>9</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could access iPhone product through second slider", "F13_HomeSliders - user could access products through sliders"</td>
+<td><div><pre>java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkiPhonePageAccessible(D13_HomeSlidersStepDef.java:33)
+	at ?.user opens iPhone product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:12)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace305964128", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace305964128'><pre>java.lang.AssertionError: Error:URL Mismatch expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.stepDefs.D13_HomeSlidersStepDef.checkiPhonePageAccessible(D13_HomeSlidersStepDef.java:33)
+	at ?.user opens iPhone product successfully(file:///D:/workset/EcommerceAutomation/src/main/resources/features/F13_HomeSliders.feature:12)
+</pre></div></td>
+<td>12</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,44 +143,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could log in with valid email and password", "F02_Login - user could login with valid email and password"</td>
-<td></td>
-<td>14</td>
-<td>org.example.testRunner.runners@37374a5e</td></tr>
-<tr>
-<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "F08_Select Tags | user selects different tags"</td>
-<td></td>
-<td>14</td>
-<td>org.example.testRunner.runners@37374a5e</td></tr>
-<tr>
 <td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could create successful order", "F12_SuccessfulOrder - user could create successful order"</td>
 <td></td>
 <td>23</td>
 <td>org.example.testRunner.runners@37374a5e</td></tr>
 <tr>
-<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could filter with color", "F07_ColorFilter - user could filter with color"</td>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could access youtube followUs link", "F14_FollowUs - user could access followUs links"</td>
 <td></td>
-<td>13</td>
-<td>org.example.testRunner.runners@37374a5e</td></tr>
-<tr>
-<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "logged user could switch between currencies US-Euro", "F05_SwitchCurr - user could switch between currencies US-Euro"</td>
-<td></td>
-<td>13</td>
-<td>org.example.testRunner.runners@37374a5e</td></tr>
-<tr>
-<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could reset password successfully", "F03_ResetPassword - user could reset password successfully"</td>
-<td></td>
-<td>15</td>
+<td>10</td>
 <td>org.example.testRunner.runners@37374a5e</td></tr>
 <tr>
 <td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could register with valid data successfully", "F01_Register - users could register with new account"</td>
 <td></td>
-<td>15</td>
+<td>12</td>
 <td>org.example.testRunner.runners@37374a5e</td></tr>
 <tr>
-<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add different products to shopping cart", "F09_ShoppingCart - user could add different products to shopping cart"</td>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could switch between currencies to Euro", "F05_SwitchCurr - user could switch between currencies US-Euro"</td>
 <td></td>
-<td>16</td>
+<td>13</td>
 <td>org.example.testRunner.runners@37374a5e</td></tr>
 <tr>
 <td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add different products to Wishlist", "F10_Wishlist - user could add different products to Wishlist"</td>
@@ -120,19 +168,59 @@ function toggleAllBoxes() {
 <td>21</td>
 <td>org.example.testRunner.runners@37374a5e</td></tr>
 <tr>
-<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add different products to Comparelist", "F11_CompareList - user could add different products to CompareList"</td>
-<td></td>
-<td>25</td>
-<td>org.example.testRunner.runners@37374a5e</td></tr>
-<tr>
-<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search for any product", "F04_Search - user could search for product"</td>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could switch between currencies to US Dollar", "F05_SwitchCurr - user could switch between currencies US-Euro"</td>
 <td></td>
 <td>12</td>
 <td>org.example.testRunner.runners@37374a5e</td></tr>
 <tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could access facebook followUs link", "F14_FollowUs - user could access followUs links"</td>
+<td></td>
+<td>8</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could log in with valid email and password", "F02_Login - user could login with valid email and password"</td>
+<td></td>
+<td>11</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
 <td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could select different categories", "F06_Categories - user could select different categories"</td>
 <td></td>
-<td>23</td>
+<td>25</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add different products to shopping cart", "F09_ShoppingCart - user could add different products to shopping cart"</td>
+<td></td>
+<td>18</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could reset password successfully", "F03_ResetPassword - user could reset password successfully"</td>
+<td></td>
+<td>14</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could access twitter followUs link", "F14_FollowUs - user could access followUs links"</td>
+<td></td>
+<td>10</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could filter with color", "F07_ColorFilter - user could filter with color"</td>
+<td></td>
+<td>13</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add different products to Comparelist", "F11_CompareList - user could add different products to CompareList"</td>
+<td></td>
+<td>24</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "F08_Select Tags | user selects different tags"</td>
+<td></td>
+<td>15</td>
+<td>org.example.testRunner.runners@37374a5e</td></tr>
+<tr>
+<td title='org.example.testRunner.runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search for any product", "F04_Search - user could search for product"</td>
+<td></td>
+<td>16</td>
 <td>org.example.testRunner.runners@37374a5e</td></tr>
 </table><p>
 </body>

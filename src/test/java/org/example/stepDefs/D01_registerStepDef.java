@@ -21,11 +21,25 @@ public class D01_registerStepDef {
         reg.registrationLink().click();
     }
 
+    @And("user enters gender")
+    public void setMaleGender() {
+        reg.Gender().click();
+    }
 
     @And("user enters first name and last name")
     public void setFirstName_lastName() {
         reg.firstNameTxtField().sendKeys("Karim");
         reg.lastNameTxtField().sendKeys("Mohamed");
+    }
+    @And("user enters DOB")
+    public void setDOB() {
+        reg.DOB_day().selectByValue("1");
+        reg.DOB_month().selectByValue("1");
+        reg.DOB_year().selectByValue("1990");
+    }
+    @And("user enters company")
+    public void setCompanyName() {
+        reg.Company().sendKeys("Udacity");
     }
 
     @And("user enters valid Email address")
